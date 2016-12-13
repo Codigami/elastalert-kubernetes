@@ -4,7 +4,7 @@ Elastalert is used for alerting on unknown scenario in our production environmen
 
 # How to create new alerts. 
 
-Add a new rules file in the rules directory. More information about different types of rules here, ```http://elastalert.readthedocs.io/en/latest/elastalert.html#overview```. Once elastalert detects changes in any file, it reloads the applications. 
+Add a new rules file in the rules directory. More information about different types of rules [here](http://elastalert.readthedocs.io/en/latest/elastalert.html#overview). Once elastalert detects changes in any file, it reloads the applications. 
 
 # How to create docker file
 e.g. ```docker build -t elastalert:1.0 .```
