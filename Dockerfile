@@ -1,6 +1,6 @@
 FROM python:2.7-alpine
 
-ENV ELASTALERT_VERSION 0.1.15
+ENV ELASTALERT_VERSION 0.1.14
 
 RUN apk add --update alpine-sdk \
     && pip install elastalert==$ELASTALERT_VERSION
