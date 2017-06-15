@@ -2,7 +2,7 @@ FROM python:2.7-alpine
 
 ENV ELASTALERT_VERSION 0.1.14
 
-RUN apk add --update alpine-sdk \
+RUN apk add --update alpine-sdk libffi-dev openssl-dev openssl \
     && pip install elastalert==$ELASTALERT_VERSION
 
 WORKDIR /app/elastalert
